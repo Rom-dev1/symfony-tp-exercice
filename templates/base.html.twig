@@ -14,6 +14,16 @@
         {% endblock %}
     </head>
     <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="{{path('app_color')}}">Les couleurs</a> 
+                </li>
+                <li>
+                    <a href="{{path('app_date')}}">Date du moment</a>
+                </li>
+            </ul>
+        </nav>
         {% block body %}{% endblock %}
     </body>
 </html>
